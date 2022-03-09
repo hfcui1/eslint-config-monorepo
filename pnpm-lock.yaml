@@ -51,7 +51,7 @@ importers:
 
   packages/eslint-config-typescript:
     specifiers:
-      '@hfcjoy/eslint-config-common': ^1.0.0
+      '@hfcjoy/eslint-config-common': ^2.0.0
       '@typescript-eslint/eslint-plugin': ^5.10.0
       '@typescript-eslint/parser': ^5.10.0
       eslint: ^8.7.0
