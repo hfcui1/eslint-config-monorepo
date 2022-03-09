@@ -16,7 +16,14 @@ module.exports = {
   settings: {
     'html/report-bad-indent': 'error',
     'html/indent': '+2',
-    'html/html-extensions': ['.html', '.ejs', '.html', '.hbs', '.handlebars', '.pug'],
+    'html/html-extensions': [
+      '.html',
+      '.ejs',
+      '.html',
+      '.hbs',
+      '.handlebars',
+      '.pug'
+    ],
     'import/resolver': {
       node: {
         extensions: ['.tsx', '.ts', '.js', '.json']

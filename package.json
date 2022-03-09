@@ -4,18 +4,30 @@
   "workspaces": [
     "packages/*"
   ],
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "keywords": [],
+  "license": "ISC",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hfcjoy/eslint-config.git"
   },
-  "keywords": [],
   "author": "",
-  "license": "ISC",
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.{js,ts,json.yml,yaml}": [
+      "eslint --cache",
+      "prettier --check"
+    ]
+  },
   "bugs": {
     "url": "https://github.com/hfcjoy/eslint-config/issues"
   },
-  "homepage": "https://github.com/hfcjoy/eslint-config#readme"
+  "homepage": "https://github.com/hfcjoy/eslint-config#readme",
+  "devDependencies": {
+    "eslint": "^8.7.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.5",
+    "prettier": "^2.5.1"
+  }
 }

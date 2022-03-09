@@ -1,7 +1,11 @@
 const commonConfig = require('@hfcjoy/eslint-config-common')
 
 module.exports = {
-  extends: ['@hfcjoy/common', 'plugin:@typescript-eslint/recommended', 'prettier'],
+  extends: [
+    '@hfcjoy/common',
+    'plugin:@typescript-eslint/recommended',
+    'prettier'
+  ],
   plugin: ['prettier'],
   overrides: [
     ...commonConfig.overrides,
