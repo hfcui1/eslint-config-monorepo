@@ -1,5 +1,11 @@
 # @hfcjoy/eslint-config-typescript
 
+## 2.0.1
+
+### Patch Changes
+
+- 修复配置属性错误问题
+
 ## 2.0.0
 
 ### Major Changes
