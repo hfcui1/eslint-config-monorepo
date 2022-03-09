@@ -1,0 +1,38 @@
+{
+  "name": "@hfcjoy/eslint-config-typescript",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "keywords": ["eslint-config-typescript"],
+  "license": "ISC",
+  "author": "",
+  "main": "eslint-config-typescript.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "eslint": ">=7",
+    "prettier": ">=2",
+    "typescript": ">=3.5"
+  },
+  "dependencies": {
+    "@hfcjoy/eslint-config-common": "^1.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.10.0",
+    "@typescript-eslint/parser": "^5.10.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.7.0",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.4"
+  },
+  "pnpm": {
+    "overrides": {
+      "@hfcjoy/eslint-config-common": "workspace:*"
+    }
+  }
+}
