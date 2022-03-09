@@ -6,7 +6,7 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'prettier'
   ],
-  plugin: ['prettier'],
+  plugins: ['prettier'],
   overrides: [
     ...commonConfig.overrides,
     {
