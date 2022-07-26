@@ -4,4 +4,10 @@
 
 ### Major Changes
 
+- add base pkg
+
+## 2.0.0
+
+### Major Changes
+
 - 初始化 eslint 配置

@@ -27,6 +27,9 @@ module.exports = {
     'import/resolver': {
       node: {
         extensions: ['.tsx', '.ts', '.js', '.json']
+      },
+      alias: {
+        extensions: ['.tsx', '.ts', '.js', '.json']
       }
     }
   },

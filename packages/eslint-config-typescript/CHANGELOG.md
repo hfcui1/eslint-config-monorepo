@@ -1,5 +1,16 @@
 # @hfcjoy/eslint-config-typescript
 
+## 2.0.0
+
+### Major Changes
+
+- add base pkg
+
+### Patch Changes
+
+- Updated dependencies
+  - @joynow/eslint-config-common@2.0.0
+
 ## 2.0.1
 
 ### Patch Changes
