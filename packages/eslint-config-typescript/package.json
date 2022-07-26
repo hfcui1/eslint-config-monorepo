@@ -1,10 +1,10 @@
 {
-  "name": "@hfcjoy/eslint-config-typescript",
+  "name": "@joynow/eslint-config-typescript",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "version": "2.0.1",
+  "version": "1.0.0",
   "description": "",
   "keywords": [
     "eslint-config-typescript"
@@ -21,7 +21,7 @@
     "typescript": ">=3.5"
   },
   "dependencies": {
-    "@hfcjoy/eslint-config-common": "^2.0.0",
+    "@hfcjoy/eslint-config-common": "^1.0.0",
     "@typescript-eslint/eslint-plugin": "^5.10.0",
     "@typescript-eslint/parser": "^5.10.0",
     "eslint-config-prettier": "^8.3.0",
