@@ -2,7 +2,7 @@ const commonConfig = require('@joynow/eslint-config-common')
 
 module.exports = {
   extends: [
-    '@hfcjoy/common',
+    '@joynow/common',
     'plugin:@typescript-eslint/recommended',
     'prettier'
   ],
