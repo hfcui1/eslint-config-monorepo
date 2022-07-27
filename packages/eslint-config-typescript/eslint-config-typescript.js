@@ -1,4 +1,4 @@
-const commonConfig = require('@hfcjoy/eslint-config-common')
+const commonConfig = require('@joynow/eslint-config-common')
 
 module.exports = {
   extends: [
